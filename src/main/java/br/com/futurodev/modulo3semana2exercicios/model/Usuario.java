@@ -15,7 +15,7 @@ import java.util.List;
  */
 @Data
 @Builder
-public class Usuario implements UserDetails {
+public class Usuario implements UserDetails {   // Implementacao da classe Usuario
 
     private Integer id;
     private String nome;
